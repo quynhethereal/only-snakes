@@ -15,8 +15,8 @@
 		76D124D2288D9539009A5797 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D124D1288D9539009A5797 /* Tests_iOSLaunchTests.swift */; };
 		76D124DC288D9539009A5797 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D124DB288D9539009A5797 /* Tests_macOS.swift */; };
 		76D124DE288D9539009A5797 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D124DD288D9539009A5797 /* Tests_macOSLaunchTests.swift */; };
-		76D124DF288D9539009A5797 /* Assignment_OneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D124B7288D9536009A5797 /* Assignment_OneApp.swift */; };
-		76D124E0288D9539009A5797 /* Assignment_OneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D124B7288D9536009A5797 /* Assignment_OneApp.swift */; };
+		76D124DF288D9539009A5797 /* OnlySnakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D124B7288D9536009A5797 /* OnlySnakesApp.swift */; };
+		76D124E0288D9539009A5797 /* OnlySnakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D124B7288D9536009A5797 /* OnlySnakesApp.swift */; };
 		76D124E1288D9539009A5797 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D124B8288D9536009A5797 /* ContentView.swift */; };
 		76D124E2288D9539009A5797 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D124B8288D9536009A5797 /* ContentView.swift */; };
 		76D124E3288D9539009A5797 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76D124B9288D9539009A5797 /* Assets.xcassets */; };
@@ -50,7 +50,7 @@
 		766D3954288E96490075699B /* ImageSlideshow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlideshow.swift; sourceTree = "<group>"; };
 		766D3958288EA8410075699B /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		766D395A288EB1810075699B /* SnakeDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeDetailCard.swift; sourceTree = "<group>"; };
-		76D124B7288D9536009A5797 /* Assignment_OneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_OneApp.swift; sourceTree = "<group>"; };
+		76D124B7288D9536009A5797 /* OnlySnakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlySnakesApp.swift; sourceTree = "<group>"; };
 		76D124B8288D9536009A5797 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76D124B9288D9539009A5797 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76D124BE288D9539009A5797 /* Snakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,7 +117,7 @@
 			children = (
 				76D124FA288DA389009A5797 /* Model */,
 				76D124F3288D9548009A5797 /* View */,
-				76D124B7288D9536009A5797 /* Assignment_OneApp.swift */,
+				76D124B7288D9536009A5797 /* OnlySnakesApp.swift */,
 				76D124B8288D9536009A5797 /* ContentView.swift */,
 				76D124B9288D9539009A5797 /* Assets.xcassets */,
 			);
@@ -347,7 +347,7 @@
 				76D124E1288D9539009A5797 /* ContentView.swift in Sources */,
 				76D124FE288DA412009A5797 /* Snake.swift in Sources */,
 				766D3959288EA8410075699B /* InfoView.swift in Sources */,
-				76D124DF288D9539009A5797 /* Assignment_OneApp.swift in Sources */,
+				76D124DF288D9539009A5797 /* OnlySnakesApp.swift in Sources */,
 				764B5067289432F400DCC96D /* ToolBarView.swift in Sources */,
 				76D124F9288DA31A009A5797 /* HeaderView.swift in Sources */,
 				766D3955288E964A0075699B /* ImageSlideshow.swift in Sources */,
@@ -361,7 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				76D124E2288D9539009A5797 /* ContentView.swift in Sources */,
-				76D124E0288D9539009A5797 /* Assignment_OneApp.swift in Sources */,
+				76D124E0288D9539009A5797 /* OnlySnakesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
